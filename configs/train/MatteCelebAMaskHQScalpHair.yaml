@@ -1,0 +1,22 @@
+train:
+  name: MatteCelebAMaskHQScalpHair
+  out_folder: ./runs
+  device: cuda:0
+  train_dataset: CelebAMaskHQScalpHair
+  training_resolution: 1024
+  epochs: 10
+  batch_size: 1
+  backbone_learning_rate: 0.0
+  head_learning_rate: 0.0001
+  reduce_lr_after_each: 7
+  reduce_lr_by_a_factor_of: 0.1
+  continue_from_ckpt: null
+  seed: 2025
+  use_training_augmentation: true
+  build_dpt: false
+  backbone: dinov2_vits14
+  model_type: matte
+  resnet_width: 8
+  resnet_depth: 8
+  resnet_stages: 4
+  backbone_extra_patch_levels: 2

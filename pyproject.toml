@@ -1,0 +1,27 @@
+[project]
+name = "hair-matting"
+version = "0.1.0"
+description = "Research code for neural hair matting and synthetic portrait data."
+requires-python = ">=3.11"
+dependencies = [
+    "albumentations",
+    "matplotlib",
+    "numpy>=2.4.4",
+    "opencv-python>=4.8.0",
+    "pandas",
+    "pillow",
+    "pyyaml>=6.0.2",
+    "safetensors",
+    "scikit-image",
+    "scikit-learn",
+    "tensorboard",
+    "tifffile",
+    "torch>=2.0.0",
+    "torchvision>=0.15.0",
+    "tqdm",
+    "imagecodecs>=2026.3.6",
+    "huggingface-hub>=1.12.0",
+]
+
+[tool.uv]
+package = false

@@ -1,0 +1,16 @@
+# Replace each path with the local dataset directory.
+
+paths:
+  portrait_matting_datasets:
+    Backgrounds: /path/to/Backgrounds
+    Clothing: /path/to/Clothing
+    Figaro1K: /path/to/Figaro1K
+    CelebAMask-HQ: /path/to/CelebAMask-HQ
+    HiSa_HiDa: /path/to/HiSa_HiDa
+    FaceSynthetics: /path/to/FaceSynthetics
+
+  synthetic_hair:
+    512x512: /path/to/SynthHair/512x512
+    1024x1024: /path/to/SynthHair/1024x1024
+    2048x2048: /path/to/SynthHair/2048x2048
+    4096x4096: /path/to/SynthHair/4096x4096
